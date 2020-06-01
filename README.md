@@ -4,7 +4,7 @@ This is my take on the free, week-long "Fullstack" development course made by th
 
 ### Task
 
-Develop _Booster_, a full-stack application for assisting in trash disposal and recycling. This single page application should assist in making recycling easier by letting users alert garbage collection companies of their well separated junk. It should include user registration service and google maps integration.
+Develop _Booster_, a full-stack application for assisting in trash disposal and recycling. This single page application should assist in making recycling easier by letting users alert garbage collection companies of their well separated junk. It should include a user registration service and google maps integration.
 
 ### Design document
 
