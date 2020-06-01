@@ -21,16 +21,16 @@ The Landing page can be viewed on [Figma](https://www.figma.com/file/9TlOcj6l7D0
 #### Completion
 
 - [x] Day 1 - Environment Setup 
- - [ ] Optional Challenge
+ - [ ] Day 1 - Optional Challenge
 - [ ] Day 2
- - [ ] Optional Challenge
+ - [ ] Day 2 - Optional Challenge
 - [ ] Day 3
- - [ ] Optional Challenge
+ - [ ] Day 3 - Optional Challenge
 - [ ] Day 4
- - [ ] Optional Challenge
+ - [ ] Day 4 - Optional Challenge
 - [ ] Day 5
- - [ ] Optional Challenge
+ - [ ] Day 5 - Optional Challenge
 - [ ] Day 6
- - [ ] Optional Challenge
+ - [ ] Day 6 - Optional Challenge
 - [ ] Day 7
- - [ ] Optional Challenge
+ - [ ] Day 7 - Optional Challenge
