@@ -16,16 +16,10 @@ Develop a full-stack application for trash disposal and recycling. This single p
 #### Completion
 
 - [x] Day 1 - Environment Setup 
- - [ ] Optional Challenge
-- [ ] Day 2
- - [ ] Optional Challenge
+- [x] Day 2 - Backend API Routing
 - [ ] Day 3
- - [ ] Optional Challenge
 - [ ] Day 4
- - [ ] Optional Challenge
 - [ ] Day 5
- - [ ] Optional Challenge
 - [ ] Day 6
- - [ ] Optional Challenge
 - [ ] Day 7
- - [ ] Optional Challenge
+
