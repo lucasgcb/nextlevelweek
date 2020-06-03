@@ -4,6 +4,7 @@ import knex from '../database/connection';
 class PointsController {
     async index(request: Request, response: Response) {
         // Filtros
+        // Isso não vai funcionar sem uma query
         const { city, uf, items } = request.query;
         const parsedItems = String(items)
             .split(',')
