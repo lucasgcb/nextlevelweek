@@ -23,7 +23,7 @@ The Landing page can be viewed on [Figma](https://www.figma.com/file/9TlOcj6l7D0
 - [x] Day 1 - Environment Setup 
 - [x] Day 2 - Backend API Routing
 - [x] Day 3 - Front End SPA, Form submission feature
-- [ ] Day 4
+- [x] Day 4 - Mobile Client, Point browser feature
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7
