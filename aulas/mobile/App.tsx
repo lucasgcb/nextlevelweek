@@ -1,0 +1,43 @@
+import React from 'react';
+import { StatusBar, StyleSheet, Text, View } from 'react-native';
+import Routes from './src/routes'
+
+import { AppLoading } from 'expo';
+import { Roboto_400Regular, Roboto_500Medium } from '@expo-google-fonts/roboto'
+import { Ubuntu_700Bold, useFonts } from '@expo-google-fonts/ubuntu'
+
+// XML no JavaScript
+// View, Text, etc. Não tem HTML nas tags.
+// React-native doku
+
+
+export default function App() {
+  const [fontsLoaded] = useFonts({
+    Roboto_400Regular,
+    Roboto_500Medium,
+    Ubuntu_700Bold
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+  return (
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
+      <Routes />
+    </>
+  );
+}
+
+// CSS quase análogo da web (IOGA?)
+// Sem hífens
+// Aspas em hex
+// flex por padrão
+/*const styles = StyleSheet.create({/
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});*/
