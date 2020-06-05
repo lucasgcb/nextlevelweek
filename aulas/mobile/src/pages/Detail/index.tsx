@@ -11,8 +11,9 @@ const Detail = () => {
         point_id: number;
     }
     interface Data {
-        point: {
+        serializedPoint: {
             image: string;
+            image_url: string;
             name: string;
             email: string;
             whatsapp: string;
@@ -29,28 +30,34 @@ const Detail = () => {
     const routeParams = route.params as Params;
 
     useEffect(() => {
+
+        console.log(routeParams.point_id)
         api.get(`points/${routeParams.point_id}`).then(response => {
+            console.log(response.data)
             setData(response.data)
+
+            console.log(data)
         })
+
     }, [])
 
     function handleComposeMail() { // Não funciona com protonmail
         MailComposer.composeAsync({
             subject: 'Interesse na coleta de residuos',
-            recipients: [data.point.email],
+            recipients: [data.serializedPoint.email],
         })
     }
 
     function handleWhatsapp() {
         console.log("kk eae men")
-        Linking.openURL(`whatsapp://send?text=Hello World!&phone=${data.point.whatsapp}`)
+        Linking.openURL(`whatsapp://send?text=Hello World!&phone=${data.serializedPoint.whatsapp}`)
     }
 
     function handleNavigateBack() {
         navigation.goBack();
     }
 
-    if (!data.point) {
+    if (!data.serializedPoint) {
         return null;
     }
 
@@ -61,14 +68,14 @@ const Detail = () => {
                     <Icon name="arrow-left" size={20} color="#34cb79" />
                 </TouchableOpacity>
                 <Image style={styles.pointImage} source={{
-                    uri: data.point.image
+                    uri: data.serializedPoint.image_url
                 }} />
-                <Text style={styles.pointName}>{data.point.name}</Text>
+                <Text style={styles.pointName}>{data.serializedPoint.name}</Text>
                 <Text style={styles.pointItems}>{data.items.map(item => item.title).join(', ')} </Text>
                 <View style={styles.address}>
                     <Text style={styles.addressTitle}>Endereço</Text>
 
-                    <Text style={styles.pointItems}>{data.point.city}, {data.point.UF}</Text>
+                    <Text style={styles.pointItems}>{data.serializedPoint.city}, {data.serializedPoint.UF}</Text>
                 </View>
             </View>
 
