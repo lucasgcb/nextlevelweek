@@ -15,7 +15,7 @@ const Home = () => {
 
                     <Link to="/cadastro">
                         <span> <FiLogIn /> </span>
-                        <strong>Cadestre um ponto de coleta</strong>
+                        <strong>Cadastre um ponto de coleta</strong>
                     </Link>
                 </main>
             </div>
