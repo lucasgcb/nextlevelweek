@@ -4,7 +4,7 @@ This is my take on the free, week-long "Fullstack" development course made by th
 
 ### Task
 
-Develop _Ecoleta_, a full-stack application for assisting in trash disposal and recycling. This single page application should assist in making recycling easier by letting users alert garbage collection companies of their well separated junk. It should include a point registration service, and a user mobile app for finding said points. It must all be integrated and use a maps API.
+Develop _Ecoleta_, a full-stack application for assisting in trash disposal and recycling. This single page application should assist in making recycling easier by letting users find garbage collection points for disposing of their well separated junk. It should include a point registration service, and a user mobile app for finding said points using a Map API. 
 
 ### Design document
 
