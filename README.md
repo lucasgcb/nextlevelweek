@@ -16,13 +16,13 @@ The Landing page can be viewed on [Figma](https://www.figma.com/file/9TlOcj6l7D0
 
 ![static](./aulas/web/docs/preview/web_preview.gif)
 
-[Click here to go to the web stack.](./aulas/web).
+[Click here to go to the web repository.](./aulas/web)
 
 #### Mobile
 
 ![static](./aulas/mobile/docs/preview/mobile_preview.gif)
 
-[Click here to go to the mobile stack.](./aulas/mobile).
+[Click here to go to the mobile repository.](./aulas/mobile)
 
 ### Required Technologies so far
 
