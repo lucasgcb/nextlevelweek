@@ -10,6 +10,11 @@
 - React-leaflet (replaces google maps)
 - Axios
 
+### Preview
+
+![Usability Preview](./docs/preview/web_preview.gif)
+
+
 ### Features:
 
 - Single Page Application
@@ -21,5 +26,5 @@
 
 #### Missing:
 
-- Input error detection
 - A prettier "sign up successful" message
+- Proper reloading (will get stuck without refreshing)
