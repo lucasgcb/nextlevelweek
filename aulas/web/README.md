@@ -12,7 +12,7 @@
 
 ### Preview
 
-![Usability Preview](./docs/preview/web_preview.gif)
+![Usability Preview](./docs/preview/web_preview.png)
 
 
 ### Features:
