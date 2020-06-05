@@ -4,6 +4,7 @@
 
 - React.js
 - React Router Dom
+- React-dropzone
 - TypeScript
 - Feather Icons (react-icons)
 - React-leaflet (replaces google maps)
