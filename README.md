@@ -10,6 +10,17 @@ Develop _Ecoleta_, a full-stack application for assisting in trash disposal and 
 
 The Landing page can be viewed on [Figma](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)?node-id=0%3A1).
 
+### Previews
+
+#### Web
+
+![static](./aulas/web/docs/preview/web_preview.gif)
+[Click here to go to the web stack.](./aulas/web).
+
+#### Mobile
+
+![static](./aulas/mobile/docs/preview/mobile_preview.gif)
+[Click here to go to the mobile stack.](./aulas/mobile).
 
 ### Required Technologies so far
 
