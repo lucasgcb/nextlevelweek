@@ -2,10 +2,12 @@
 
 
 Technologies:
-
 - Node.js
 - TypeScript
+- Multer
+- celebrate
 - Express
+- @types/hapi__joi 
 - Knex.js
 - SQlite
 - ESlint
